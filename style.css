@@ -34,6 +34,8 @@ h2 {
     font-size: 30px;
 }
 
+/* for yoga1 home page */
+
 .image img {
     width:1200px;
     height: 500px;
@@ -52,10 +54,18 @@ h2 {
     margin: 20px;
 }
 
+/* for yoga2 sign up form page */
+
 form legend {
     font-size: large;
     margin-bottom: 30px;
 }
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
 
 input {
     width: 20%;
@@ -63,4 +73,57 @@ input {
     margin-bottom: 10px;
     border: 1px solid #cccccc;
     border-radius: 4px;
+}
+
+fieldset {
+    border: 1px solid #cccccc;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+legend {
+    font-family: cursive;
+}
+
+#yoga-type {
+    margin-bottom: 10px;
+}
+
+#bio {
+    border: 1px solid #cccccc;
+    height: 100px;
+    width: 300px;
+    padding-top: 10px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: yellow;
+}
+
+button:hover {
+    background-color: grey;
+    color: white;
+}
+
+/* for yoga3 asana page */
+
+.asanas {
+    position: flex;
+    flex-wrap: wrap;
+}
+.asanas img {
+    height: 500px;
+    width: 400px;
+    margin: 20px;
+}
+
+/* for yoga4 more info page */
+
+.more ul {
+    margin-left: 20px;
+}
+
+.more ul a {
+    text-decoration:none;
 }
